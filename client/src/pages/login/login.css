@@ -1,0 +1,42 @@
+.login-main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.login-main input {
+    width: 350px;
+    font-size: 1.25rem;
+    line-height: 30px;
+    border-radius: 15px;
+    border: none;
+    padding-left: 10px;
+}
+
+.login-main button{
+    width: 100px;
+    height: 30px;
+    font-size: 1.25rem;
+    border-radius: 15px;
+    border: none;
+}
+
+.login-main button:hover {
+    background-color: #707070;
+    color: #fff;
+}
+
+.link-style {
+    text-decoration: none;
+    color: #2645f8;
+    font-size: 1.125rem;
+}
+
+.link-style:hover {
+    color: #2645f881;
+}
+
+.link-style:visited {
+    color: inherit;
+}
+

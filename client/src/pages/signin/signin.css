@@ -1,0 +1,37 @@
+.signin-style {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.signin-style input {
+    width: 350px;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+.signin-style button {
+    width: 120px;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    border: none;
+}
+
+.signin-style button:hover {
+    background-color: #707070;
+    color: #fff;
+}
+
+.btn-wrong {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn-wrong span {
+    color: #c51d1d;
+}
