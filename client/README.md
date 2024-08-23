@@ -1,8 +1,2 @@
-# React + Vite
+A Task Manager é uma aplicação web de gerenciamento de tarefas desenvolvida para demonstrar habilidades em desenvolvimento front-end e back-end. A aplicação permite que os usuários criem, editem, filtrem e deletem tarefas, além de marcar tarefas como concluídas. A interface foi construída utilizando React.js, enquanto o back-end foi implementado com Node.js e Express, com armazenamento de dados em MongoDB.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

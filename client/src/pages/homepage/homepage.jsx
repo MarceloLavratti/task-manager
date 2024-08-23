@@ -5,7 +5,7 @@ import { useAuth } from '../../context/AuthContext'
 
 const Homepage = () => {
 
-  const { isLoggedIn, logout } = useAuth()
+  const { isLoggedIn } = useAuth()
   
   return (
     <>

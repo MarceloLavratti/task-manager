@@ -114,10 +114,10 @@ const TaskList = ({ userId }) => {
             value={newTaskDescription}
             onChange={(e) => setNewTaskDescription(e.target.value)}
           />
-          <button onClick={handleAddTasks} class='material-symbols-outlined add-btn'>add_task</button>
+          <button onClick={handleAddTasks} className='material-symbols-outlined add-btn'>add_task</button>
         </div>
         <div>
-          <label for="options">Filtrar:</label>
+          <label htmlFor="options">Filtrar:</label>
           <select id="options" name="options" onChange={handleChangeFilter}>
             <option value="all">Todas</option>
             <option value="complete">Finalizadas</option>
@@ -136,14 +136,14 @@ const TaskList = ({ userId }) => {
                     value={editTaskDescription}
                     onChange={(e) => setEditTaskDescription(e.target.value)}
                   />
-                  <button onClick={() => handleSaveTask(task._id)} class='material-symbols-outlined'>save</button>
+                  <button onClick={() => handleSaveTask(task._id)} className='material-symbols-outlined'>save</button>
                 </div>
               ) : (
                 <div className='task-scope'>
                   <li onClick={() => toggleTaskCheck(task._id)} style={{ textDecoration: task.completed ? 'line-through' : 'none' }} className='task-description'>{task.description}</li>
                   <div className='btns-style'>
-                    <button onClick={() => handleEditTask(task._id)} class='material-symbols-outlined save-btn'>edit</button>
-                    <button onClick={() => handleRemoveTasks(task._id)} class='material-symbols-outlined delete-btn'>delete</button>
+                    <button onClick={() => handleEditTask(task._id)} className='material-symbols-outlined save-btn'>edit</button>
+                    <button onClick={() => handleRemoveTasks(task._id)} className='material-symbols-outlined delete-btn'>delete</button>
                   </div>
                 </div>
               )}
